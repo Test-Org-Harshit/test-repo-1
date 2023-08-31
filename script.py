@@ -32,4 +32,4 @@ for root,dirs,files in os.walk(directory):
             f.close()
 
 for k, v in sorted(d.items()):
-	print(k + "#" + str(v[0]))
+	print(k + ", " + str(v[0]))
